@@ -1,0 +1,9 @@
+.home {
+  background: rgba(17, 17, 17, 1);
+}
+
+
+.carousel {
+  max-width: 100%;
+  overflow: hidden;
+}

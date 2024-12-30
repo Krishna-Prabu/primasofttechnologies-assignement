@@ -1,0 +1,29 @@
+.header {
+  width: 60%;
+  justify-self: center;
+}
+
+.header-headline {  
+  font-family: Montserrat;
+  font-size: 80px;
+  font-weight: 700;
+  line-height: 97.52px;
+  text-align: center;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  margin: 0px;
+  padding: 30px 0px 10px 0px;
+  color: rgba(255, 255, 255, 1);
+}
+
+.header-paragraph {
+  font-family: Montserrat;
+  font-size: 28px;
+  font-weight: 400;
+  line-height: 34.13px;
+  text-align: center;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  margin-top: 0px;
+  color: rgba(255, 255, 255, 1);
+}

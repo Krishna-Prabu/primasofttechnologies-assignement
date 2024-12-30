@@ -1,0 +1,77 @@
+.carousel-section {
+  width: 1920px; 
+  height: 250px;
+  display: flex;
+  gap: 30px;
+}
+
+.carousel-card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 250px;
+  height: 250px;
+  background: #282828;
+  padding: 0px 23px;
+  border-radius: 20px;
+  border: 1px 0px 0px 0px;
+  position:relative;
+}
+
+.odd-index {  
+  animation: odd-index 15s linear 0s infinite alternate;
+}
+
+.even-index {
+  animation: even-index 15s linear 0s infinite alternate;
+}
+.carousel-card-content {
+  font-family: Poppins;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 20px;
+  text-align: center;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: rgba(255, 255, 255, 0.8);
+  margin-top: 5px;
+}
+
+.carousel-card-title {
+  font-family: Poppins;
+  font-size: 22px;
+  font-weight: 500;
+  line-height: 35.71px;
+  text-align: center;
+  text-underline-position: from-font;
+  text-decoration-skip-ink: none;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+@keyframes odd-index {
+  /* 0% { top: 0%; right: 100%;}
+  25% { top: 50%; right: 75%;}
+  50% { top: 0%; right: 50%;}
+  75% { top: 50%; right: 25%;}
+  100% { top: 0%; right: 0%;} */
+  0% { top: 0%; right: 30%}
+  25% { top: 50%; right: 20%}
+  75% { top: 0%; right: 10%}
+  /* 50% { top: 50%; right: 0%;} */
+100% { top: 50%; right: 0%;}
+}
+
+@keyframes even-index {
+  0% { top: 50%; right: 30%}
+  25% { top: 0%; right: 20%}
+  75% { top: 50%; right: 10%}
+  /* 50% { top: 50%; right: 0%;} */
+100% { top: 0%; right: 0%;}
+}
